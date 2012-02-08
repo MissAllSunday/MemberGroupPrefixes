@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.simplemachines.org/xml/package-info">
+<package-info xmlns="http://www.simplemachines.org/xml/package-info" xmlns:smf="http://www.simplemachines.org/">
+	<id>ProjectEvolution:Membergroup_Prefixes</id>
+	<name>Membergroup Prefixes</name>
+	<version>1.0</version>
+	<type>modification</type>
+
+	<install for="2.0 - 2.99.99">
+		<readme type="file" parsebbc="true">readme.txt</readme>
+		<modification>modification_2.xml</modification>
+		<modification>english.xml</modification>
+		<database>install2.php</database>
+	</install>
+
+	<uninstall for="2.0 - 2.99.99">
+		<modification reverse="true">modification_2.xml</modification>
+		<modification reverse="true">english.xml</modification>
+	</uninstall>
+
+</package-info>
