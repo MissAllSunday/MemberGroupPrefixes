@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE package-info SYSTEM "http://www.simplemachines.org/xml/package-info">
 <package-info xmlns="http://www.simplemachines.org/xml/package-info" xmlns:smf="http://www.simplemachines.org/">
-	<id>ProjectEvolution:Membergroup_Prefixes</id>
+	<id>Suki:Membergroup_P</id>
 	<name>Membergroup Prefixes</name>
 	<version>1.1</version>
 	<type>modification</type>
