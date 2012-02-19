@@ -196,4 +196,35 @@
 		</operation>
 	</file>
 
+	<file name="$themedir/ManageMembergroups.template.php">
+		<operation>
+			<search position="replace"><![CDATA[						</dd>';
+	if ($context['undefined_group'])
+	{]]></search>
+			<add><![CDATA[						</dd>
+						<dt>
+							<label for="group_prefix_input"><strong>', $txt['prefix2'], ':</strong></label>
+						</dt>
+						<dd>
+							<input type="text" name="group_prefix_input" id="group_prefix_input" size="30" class="input_text" />
+						</dd>';
+	if ($context['undefined_group'])
+	{]]></add>
+		</operation>
+
+		<operation>
+			<search position="replace"><![CDATA[						</dd>';
+
+	if ($context['group']['id'] != 3 && $context['group']['id'] != 4)]]></search>
+			<add><![CDATA[						</dd>
+						<dt>
+							<label for="group_prefix_input"><strong>', $txt['prefix2'], ':</strong></label>
+						</dt>
+						<dd>
+							<input type="text" name="group_prefix_input" id="group_prefix_input" value="', $context['group']['editable_prefix'], '" size="30" class="input_text" />
+						</dd>';
+
+	if ($context['group']['id'] != 3 && $context['group']['id'] != 4)]]></add>
+		</operation>
+	</file>
 </modification>
