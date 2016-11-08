@@ -40,4 +40,16 @@
 		</operation>
 	</file>
 
+	<file name="$languagedir/Modifications.russian-utf8.php" error="skip">
+		<operation>
+			<search position="end"><![CDATA[]]></search>
+			<add><![CDATA[
+	$txt['group_prefix_title'] = 'Префиксы групп';
+	$txt['enable_group_prefix'] = 'Включить префиксы групп';
+	$txt['prefix'] = 'Префикс';
+	$txt['prefix2'] = 'Префикс группы';
+]]></add>
+		</operation>
+	</file>
+
 </modification>
